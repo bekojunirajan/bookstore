@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--favicon---------->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <!---aos annimation---->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!---Fontawesome cdn--->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!------Owl Carousel----->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!---Own css--->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <title>Share Books - Siddhartha Book Store</title>
+</head>
+<body>
+<!----Section 1 Top Header---->
+<section id="top">
+  <div class="container">
+    <div class="row pt-2 pb-2">
+      <div class="col-md-8 left-top">
+        <ul class="nostyle">
+          <li><a href="telto:01-5122035" id="phone" data-toggle="tooltip" data-placement="top" title="Telephone Us"><i class="fa fa-phone pr-2" aria-hidden="true"></i>01-5122035</a></li>
+          <li><a href="telto:9843965781" id="mobile" data-toggle="tooltip" data-placement="top" title="Quick Contact"><i class="fa fa-mobile pr-2 pl-2" aria-hidden="true"></i>9843965781</a></li>
+          <li><a href="mailto:nirajan.bekoju@gmail.com" id="email" data-toggle="tooltip" data-placement="top" title="Mail Us"><i class="fa fa-envelope pr-2 pl-2" aria-hidden="true"></i>info@siddharthabookstore.com</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 text-right right-top">
+        <a href="#"><i class="fa fa-facebook pr-2" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter pr-2" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-youtube-play pr-2" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram pr-2" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!----End of Section 1 Top Header---->
+<!----Navigation Bar----->
+<nav class="navbar navbar-expand-lg navbar-light bg-nav-contact" data-aos="zoom-in"  data-aos-duration="1000">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" width="100"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="subject.html">Subject</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="category.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Category
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="paid.html">Paid</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="free.html">Free</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link current" href="share.html">Share Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a href="sign-in.html" target="_blank" class="btn btn-primary my-2 my-sm-0" type="submit" style="color: #fff;">SIGN IN</a>
+        </form>
+      </div>
+    </div>
+</nav>
+<!----End of Navigation Bar---->
+<!---Share books---->
+<section id="share-book" data-aos="zoom-in"  data-aos-duration="1500">
+  <div class="container">
+    <div class="row pt-3 pb-3">
+      <div class="col-md-8">
+        <form action="#">
+          <label for="f_name">First Name: *</label>
+          <input type="text" placeholder="Enter Your first name:" class="form-control" required="">
+          <label for="l_name">Last Name: *</label>
+          <input type="text" placeholder="Enter Your last name:" required="" class="form-control">
+          <label for="book_name">Book: *</label>
+          <input type="text" placeholder="Enter Book Title:" class="form-control" required="">
+          <label for="authot">Author: *</label>
+          <input type="text" placeholder="Enter Author name"  required="" class="form-control">
+          <label for="Book Image: *">Book Image: *</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+            </div>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile01"
+                aria-describedby="inputGroupFileAddon01" required="">
+              <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+            </div>
+          </div>
+          <label for="description">Enter the short description of book:</label>
+          <textarea name="description" cols="76" rows="10" class="form-control" placeholder="Enter description..."></textarea>
+          <input type="submit" value="Submit" class="form-control">
+        </form>
+      </div>   
+      <div class="col-md-4">
+        <h1 class="yellowish-title">Our Motive</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!----End of share books section--->
+
+<!----Footer---->
+<footer data-aos="zoom-in"  data-aos-duration="1500">
+  <div class="container">
+    <div class="row pt-5 pb-2">
+      <div class="col-md-3">
+        <h4 class="title-4 text-white">About Siddhartha</h4>
+        <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="col-md-3 contact">
+        <h4 class="title-4 text-white">Contact Us</h4>
+        <p>
+          Siddhartha Book Store<br>
+          Liwali, Bhaktapur-8<br>
+          Phone: 9843965781<br>
+          Email: nirajan.bekoju@gmail.com
+        </p>
+      </div>
+      <div class="col-md-3 terms">
+        <h4 class="title-4 text-white">Terms and Conditions</h4>
+        <p>
+          <a href="#">Privacy Policy</a><br>
+          <a href="#">Terms of Use</a><br>
+          <a href="#">Payment Policy</a><br>
+          <a href="#">Return Policy</a>
+        </p>
+      </div>
+      <div class="col-md-3">
+        <h4 class="title-4 text-white">Payment Options</h4>
+        <img src="img/payment.png" alt="Payment Option">
+        <h4 class="title-4 text-white">Social Media</h4>
+          <a href="#"><i class="fa fa-facebook pr-2" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter pr-2" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube-play pr-2" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram pr-2" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-6">
+        Copyright &copy; 2019 Siddhartha. All rights reserved.
+      </div>
+      <div class="col-md-6 text-right powered">
+        Powered By: Siddhartha
+      </div>
+    </div>
+  </div>
+</footer>
+<!----End of Footer---->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/tooltip.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/annimation.js"></script>
+</body>
+</html>
